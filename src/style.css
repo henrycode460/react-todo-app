@@ -31,7 +31,7 @@ body {
   margin-bottom: 20px;
   display: flex;
   border-radius: calc(0.5 * 100px);
-  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.38);
+  box-shadow: 0 1px 6px 0 rgb(0 0 0 / 38%);
   justify-content: space-evenly;
 }
 
@@ -81,6 +81,7 @@ body {
   top: 40px;
   z-index: 10;
   cursor: pointer;
+
   /* addition */
   background: transparent;
   border: none;
