@@ -1,12 +1,19 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
+import React from "react"
+import ReactDOM from "react-dom"
 
+import { BrowserRouter as Router } from "react-router-dom";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+//component
+import TodoContainer from "./components/TodoContainer"
+
+//stylesheet
+import "./style.css"
+
+ReactDOM.render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <Router basename={process.env.PUBLIC_URL}>
+      <TodoContainer />
+    </Router>  
+  </React.StrictMode>, 
+  document.getElementById("root")
 );
-
