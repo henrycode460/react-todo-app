@@ -2,9 +2,9 @@ import './style.css';
 
 function App() {
   return (
-    <div>
+    <section>
      <h1>Hello TODO APP</h1>
-    </div>
+    </section>
   );
 }
 
